@@ -33,6 +33,6 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: imaohw/whoiam:latest
+          tags: ima0hw/whoiam:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
