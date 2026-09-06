@@ -13,7 +13,7 @@
       "port": 10000, "listen": "127.0.0.1", "protocol": "trojan", "tag": "trojan-ws",
       "settings": {"clients": [{"password": "fsociety"}]},
       "streamSettings": {"network": "ws", "wsSettings": {"path": "/ima0hw"}, "sockopt": {"tcpFastOpen": true, "tcpNoDelay": true, "tcpKeepAliveInterval": 15}},
-      "sniffing": {"enabled": true, "destOverride": ["http", "tls", "fakedns", "quic"]}
+      "sniffing": {"enabled": true, "destOverride": ["http", "tls", "quic"]}
     },
     {
       "port": 10001, "listen": "127.0.0.1", "protocol": "vless", "tag": "vless-ws",
