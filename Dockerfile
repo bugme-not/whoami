@@ -1,8 +1,6 @@
 FROM haproxy:alpine
 USER root
 
-ENV TZ=Asia/Shanghai
-
 RUN apk add --no-cache ca-certificates wget unzip
 
 RUN wget -qO /tmp/xray.zip https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip && \
